@@ -1,5 +1,5 @@
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)FAIL_ON_PROJECT_REPOS
     repositories {
         google()
         mavenCentral()
@@ -7,3 +7,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "tinyjson"
 include ':app'
+include ':tinyjson-annotations'
+include ':tinyjson-processor'
+include ':tinyjson'
+include ':tinyjson-plugin'
